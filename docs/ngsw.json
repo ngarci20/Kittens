@@ -1,0 +1,104 @@
+{
+  "configVersion": 1,
+  "timestamp": 1622388443062,
+  "index": "D:/Git/Kittens/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "D:/Git/Kittens/favicon.ico",
+        "D:/Git/Kittens/index.html",
+        "D:/Git/Kittens/main.js",
+        "D:/Git/Kittens/manifest.webmanifest",
+        "D:/Git/Kittens/polyfills.js",
+        "D:/Git/Kittens/runtime.js",
+        "D:/Git/Kittens/styles.css",
+        "D:/Git/Kittens/vendor.js"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.1\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "D:/Git/Kittens/assets/css/animate.css",
+        "D:/Git/Kittens/assets/icons/cat.png",
+        "D:/Git/Kittens/assets/icons/icon-128x128.png",
+        "D:/Git/Kittens/assets/icons/icon-144x144.png",
+        "D:/Git/Kittens/assets/icons/icon-152x152.png",
+        "D:/Git/Kittens/assets/icons/icon-192x192.png",
+        "D:/Git/Kittens/assets/icons/icon-384x384.png",
+        "D:/Git/Kittens/assets/icons/icon-512x512.png",
+        "D:/Git/Kittens/assets/icons/icon-72x72.png",
+        "D:/Git/Kittens/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "pwa-kittens",
+      "patterns": [
+        "https:\\/\\/api\\.thecatapi\\.com\\/v1\\/breeds\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "D:/Git/Kittens/assets/css/animate.css": "924fe1073a38912a256e6037413704d73d799e29",
+    "D:/Git/Kittens/assets/icons/cat.png": "1d6277c09b0040ad77fd0ce960ff9bc3236cdf41",
+    "D:/Git/Kittens/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "D:/Git/Kittens/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "D:/Git/Kittens/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "D:/Git/Kittens/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "D:/Git/Kittens/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "D:/Git/Kittens/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "D:/Git/Kittens/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "D:/Git/Kittens/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "D:/Git/Kittens/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "D:/Git/Kittens/index.html": "87f52c46644cae914420c8c8d37c621fed228df7",
+    "D:/Git/Kittens/main.js": "fc02f12bcd7d206ce24602fbcba429804a632f9f",
+    "D:/Git/Kittens/manifest.webmanifest": "e1e1c725fac3097984d6b23db8e8fc732497b4f4",
+    "D:/Git/Kittens/polyfills.js": "30d23dbc3b43a2f905c9f9264a79bda2a1a7d989",
+    "D:/Git/Kittens/runtime.js": "154c277c076cfc8ee335df5d9349395c6bf58db5",
+    "D:/Git/Kittens/styles.css": "c63f07074e306fe2606b67fb3d26c94aa2528b21",
+    "D:/Git/Kittens/vendor.js": "bda7326292be57001d8235cb2db2930c5e0d1c1a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
